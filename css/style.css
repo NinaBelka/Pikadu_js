@@ -255,6 +255,66 @@ body {
   width: 31%;
 }
 
+.login {
+  background: #FAFAFA;
+  border: 1px solid #E8E8E8;
+  padding: 15px 25px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-title {
+  font-family: 'San Francisco Pro Semibold',
+    sans-serif;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  background: #FAFAFA;
+  color: #595959;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.login-input {
+  display: block;
+  border: 1px solid #E8E8E8;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+}
+
+.login-forget,
+.login-signup {
+  text-align: center;
+  font-size: 12px;
+  text-decoration: none;
+  margin-bottom: 15px;
+  color: #757575;
+}
+
+.login-signin {
+  margin-bottom: 15px;
+}
+
+.login-signin:hover {
+  filter: opacity(80%);
+  -webkit-filter: opacity(80%);
+}
+
+.login-signin:active {
+  filter: brightness(85%);
+  -webkit-filter: brightness(85%);
+}
+
+.login-signup {
+  color: #FAAD14;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
 .user {
   display: flex;
   align-items: center;
@@ -294,6 +354,7 @@ body {
 }
 
 .sidebar-nav {
+  display: none;
   background: #FFFFFF;
   margin-bottom: 20px;
 }
@@ -338,7 +399,7 @@ body {
 }
 
 .button-new-post {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   width: 100%;
